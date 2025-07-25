@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khaathwik - Food, Travel, and More</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="text-white">
+        <h1 class="text-4xl font-bold">Khaathwik.live</h1>
+        <p class="mt-4 text-xl">Loading... <span id="loading-percent">0%</span></p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed top-0 w-full z-50 bg-transparent">
+        <div class="container mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-white">Khaathwik</h1>
+            <ul class="flex space-x-6 text-white">
+                <li><a href="#home" class="hover:text-orange-300">Home</a></li>
+                <li><a href="#food" class="hover:text-orange-300">Food</a></li>
+                <li><a href="#cooking" class="hover:text-orange-300">Cooking</a></li>
+                <li><a href="#exploring" class="hover:text-orange-300">Exploring</a></li>
+                <li><a href="#travel" class="hover:text-orange-300">Travel</a></li>
+                <li><a href="#realestate" class="hover:text-orange-300">Real Estate</a></li>
+                <li><a href="#business" class="hover:text-orange-300">Business</a></li>
+                <li><a href="#technology" class="hover:text-orange-300">Technology</a></li>
+                <li><a href="#arts" class="hover:text-orange-300">Arts</a></li>
+                <li><a href="#blogs" class="hover:text-orange-300">Blogs</a></li>
+                <li><a href="#contact" class="hover:text-orange-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sections -->
+    <div class="snap-y snap-mandatory overflow-y-scroll h-screen">
+        <!-- Home Section -->
+        <section id="home" class="section bg-cover bg-center relative" style="background-image: url('assets/images/food.jpg');">
+            <video autoplay muted loop class="video-bg">
+                <source src="assets/placeholder.mp4" type="video/mp4">
+            </video>
+            <div class="container mx-auto text-center text-white">
+                <h2 class="text-5xl font-bold mb-4">Welcome to Khaathwik</h2>
+                <p class="text-xl mb-6">Explore a world of food, travel, arts, and more!</p>
+                <a href="#food" class="bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600">Discover Now</a>
+            </div>
+        </section>
+
+        <!-- Food Section -->
+        <section id="food" class="section bg-orange-100">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-orange-600 mb-4">Food</h2>
+                <p class="text-lg mb-6">Dive into the world of flavors with our curated food experiences. From exotic dishes to local delicacies, find inspiration for your next meal.</p>
+                <img src="assets/images/food.jpg" alt="Delicious Dish" class="w-full h-96 object-cover rounded-lg mb-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold">Explore Global Cuisines</h3>
+                        <p>Discover recipes from around the world, from spicy Indian curries to savory Italian pastas.</p>
+                    </div>
+                    <div>
+                        <img src="assets/gifs/placeholder.gif" alt="Food Prep GIF" class="w-full h-48 object-cover rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cooking Section -->
+        <section id="cooking" class="section bg-green-100">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-green-600 mb-4">Cooking</h2>
+                <p class="text-lg mb-6">Master the art of cooking with our step-by-step recipes and tips from expert chefs.</p>
+                <video autoplay muted loop class="w-full h-96 object-cover rounded-lg mb-6">
+                    <source src="assets/placeholder.mp4" type="video/mp4">
+                </video>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold">Cooking Techniques</h3>
+                        <p>Learn knife skills, sous-vide, and more to elevate your culinary creations.</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/food.jpg" alt="Food Prep" class="w-full h-48 object-cover rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Exploring Places Section -->
+        <section id="exploring" class="section bg-blue-100">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-blue-600 mb-4">Exploring Places</h2>
+                <p class="text-lg mb-6">Uncover hidden gems and must-visit spots in cities around the world.</p>
+                <img src="assets/images/travel.jpg" alt="Cityscape" class="w-full h-96 object-cover rounded-lg mb-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold">Local Adventures</h3>
+                        <p>Find the best local markets, cafes, and cultural spots in every city.</p>
+                    </div>
+                    <div>
+                        <img src="assets/gifs/placeholder.gif" alt="Exploring GIF" class="w-full h-48 object-cover rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Travel Section -->
+        <section id="travel" class="section bg-teal-100">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-teal-600 mb-4">Travel</h2>
+                <p class="text-lg mb-6">Plan your next adventure with our travel guides and itineraries.</p>
+                <video autoplay muted loop class="w-full h-96 object-cover rounded-lg mb-6">
+                    <source src="assets/placeholder.mp4" type="video/mp4">
+                </video>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold">Travel Tips</h3>
+                        <p>Packing hacks, budget travel, and destination guides to make your trip unforgettable.</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/travel.jpg" alt="Travel Destination" class="w-full h-48 object-cover rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Real Estate Section -->
+        <section id="realestate" class="section bg-gray-200">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-gray-600 mb-4">Real Estate</h2>
+                <p class="text-lg mb-6">Explore property trends, investment tips, and home-buying guides.</p>
+                <img src="assets/images/realestate.jpg" alt="Property" class="w-full h-96 object-cover rounded-lg mb-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold">Market Insights</h3>
+                        <p>Stay updated on real estate trends and investment opportunities.</p>
+                    </div>
+                    <div>
+                        <img src="assets/gifs/placeholder.gif" alt="Real Estate GIF" class="w-full h-48 object-cover rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Section -->
+        <section id="business" class="section bg-yellow-100">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-yellow-600 mb-4">Business</h2>
+                <p class="text-lg mb-6">Grow your business with strategies, tips, and success stories.</p>
+                <video autoplay muted loop class="w-full h-96 object-cover rounded-lg mb-6">
+                    <source src="assets/placeholder.mp4" type="video/mp4">
+                </video>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold">Entrepreneurship</h3>
+                        <p>Learn from industry leaders and start your entrepreneurial journey.</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/business.jpg" alt="Business Meeting" class="w-full h-48 object-cover rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Section -->
+        <section id="technology" class="section bg-purple-100">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-purple-600 mb-4">Technology</h2>
+                <p class="text-lg mb-6">Stay ahead with the latest tech trends and innovations.</p>
+                <img src="assets/images/technology.jpg" alt="Tech Innovation" class="w-full h-96 object-cover rounded-lg mb-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold">Tech News</h3>
+                        <p>Discover breakthroughs in AI, gadgets, and more.</p>
+                    </div>
+                    <div>
+                        <img src="assets/gifs/placeholder.gif" alt="Tech GIF" class="w-full h-48 object-cover rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Arts Section -->
+        <section id="arts" class="section bg-pink-100">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-pink-600 mb-4">Arts</h2>
+                <p class="text-lg mb-6">Celebrate creativity with our showcase of art and culture.</p>
+                <video autoplay muted loop class="w-full h-96 object-cover rounded-lg mb-6">
+                    <source src="assets/placeholder.mp4" type="video/mp4">
+                </video>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold">Artistic Inspirations</h3>
+                        <p>Explore visual arts, music, and cultural expressions.</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/arts.jpg" alt="Artwork" class="w-full h-48 object-cover rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blogs Section -->
+        <section id="blogs" class="section bg-indigo-100">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-indigo-600 mb-4">Blogs</h2>
+                <p class="text-lg mb-6">Read our latest stories, tips, and insights across all our passions.</p>
+                <img src="assets/images/blogs.jpg" alt="Blog Post" class="w-full h-96 object-cover rounded-lg mb-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold">Recent Posts</h3>
+                        <p>Check out our blog for recipes, travel stories, and tech updates.</p>
+                    </div>
+                    <div>
+                        <img src="assets/gifs/placeholder.gif" alt="Blog GIF" class="w-full h-48 object-cover rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-gray-300">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-gray-600 mb-4">Contact</h2>
+                <p class="text-lg mb-6">Get in touch with us for collaborations, inquiries, or just to say hi!</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-2xl font-semibold">Reach Out</h3>
+                        <p>Email: contact@khaathwik.live</p>
+                        <p>Phone: +123-456-7890</p>
+                        <p>Address: 123 Flavor Street, Food City, World</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/contact.jpg" alt="Contact Us" class="w-full h-48 object-cover rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
