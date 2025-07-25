@@ -23,19 +23,24 @@ A responsive single-page website for Khaathwik, covering food, cooking, explorin
    git clone <your-repo-url>
    cd khaathwik-live
 2. **Install Dependencies**:
+   ```bash
    npm install
 3. **Build Tailwind CSS**:
    #### Generate the CSS file:
+   ```bash
    npm run build:css
    #### For development with live reloading:
+   ```bash
    npm run watch:css
-4. **Add Assets**:
+5. **Add Assets**:
    Place your images in assets/images/.
    Place your GIFs in assets/gifs/.
    Place your videos in assets/.
    Update the src attributes in index.html to point to your actual files.
-   Local Testing:
-   #### Use a local server (e.g., Live Server in VS Code) to test:
+
+   #### Local Testing:
+   ##### Use a local server (e.g., Live Server in VS Code) to test:
+   ```bash
    npx http-server
    
    #### Open http://localhost:8080 in a browser.
