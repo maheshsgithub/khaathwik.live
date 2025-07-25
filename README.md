@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Khaathwik.live Website
 
 A responsive single-page website for Khaathwik, covering food, cooking, exploring places, traveling, real estate, business, technology, arts, blogs, and contact sections.
@@ -47,3 +48,10 @@ A responsive single-page website for Khaathwik, covering food, cooking, explorin
    npx http-server
    ```
    #### Open http://localhost:8080 in a browser.
+
+=======
+
+# Khaathwik.live
+A vibrant and modern website covering food, travel, business, tech, and more.
+
+>>>>>>> 0982fff (Initial commit from local to remote repo)
