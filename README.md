@@ -25,13 +25,16 @@ A responsive single-page website for Khaathwik, covering food, cooking, explorin
 2. **Install Dependencies**:
    ```bash
    npm install
+   
 3. **Build Tailwind CSS**:
    #### Generate the CSS file:
    ```bash
    npm run build:css
+   
    #### For development with live reloading:
    ```bash
    npm run watch:css
+   
 5. **Add Assets**:
    Place your images in assets/images/.
    Place your GIFs in assets/gifs/.
